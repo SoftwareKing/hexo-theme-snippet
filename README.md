@@ -11,7 +11,7 @@ Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题。
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/shenliyang/hexo-theme-snippet/blob/master/LICENSE)
 
 
-[在线预览 Demo](http://shenliyang.github.io)  
+[在线预览 Demo1](http://shenliyang.github.io)  [在线预览 Demo2](http://wiliam.me)  
 
 ![hexo-theme-snippet](http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/snippet-screenshots2000.jpg)
 
@@ -33,7 +33,7 @@ Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题。
 - [x] 支持代码高亮并支持自定义高亮样式
 - [x] 支持Shell脚本一键使用Travis CI持续部署Hexo博客
 
-## 使用文档：[https://github.com/wiliam2015/hexo-theme-snippet/docs/index.html](https://github.com/wiliam2015/hexo-theme-snippet/docs/index.html)
+## 使用文档：[点此访问](https://wiliam2015.github.io/hexo-theme-snippet)
 
 ## Thanks | 感谢
 
