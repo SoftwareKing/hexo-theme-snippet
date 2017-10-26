@@ -1,0 +1,431 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>snippet扩展配置 · Snippet文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+
+    
+    <link rel="next" href="deploy.html" />
+    
+    
+    <link rel="prev" href="snippetConfig.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="gb-page-wrapper">
+    <header class="gb-page-header">
+        <div class="container">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+
+            <a href="." class="logo">
+                <img src="gitbook/images/logo/128.png">
+                <h1>Snippet文档</h1>
+            </a>
+
+            
+
+            
+<a href="https://github.com/wiliam2015/hexo-theme-snippet/master/docs/snippetExtConfig.md" target="_blank" class="btn btn-link pull-right hidden-xs">
+    <i class="octicon octicon-mark-github"></i> GitHub上编辑
+</a>
+<a href="faq.html" class="btn btn-link pull-right hidden-xs">
+    F.A.Q
+</a>
+<a href="https://github.com/GitbookIO/gitbook/blob/master/CHANGES.md" target="_blank" class="btn btn-link pull-right hidden-xs">
+    1.1.0
+</a>
+
+        
+        </div>
+    </header>
+
+    <div class="gb-page-body">
+        <div class="gb-page-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        
+
+
+
+    
+    <div class="panel panel-default">
+        
+        <div class="panel-heading">
+            <h3 class="panel-title">开始</h3>
+        </div>
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="./" class="list-group-item ">
+        
+
+            
+
+            
+
+            关于本文档
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="setup.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            安装和更新
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        
+        <div class="panel-heading">
+            <h3 class="panel-title">主题配置</h3>
+        </div>
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="hexoConfig.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            Hexo配置
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="snippetConfig.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            snippet配置
+
+        
+        </a>
+        
+
+        
+    
+        
+        <a href="snippetExtConfig.html" class="list-group-item active">
+        
+
+            
+
+            
+
+            snippet扩展配置
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        
+        <div class="panel-heading">
+            <h3 class="panel-title">部署与开发</h3>
+        </div>
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="deploy.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            部署与开发
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        
+
+        <div class="list-group">
+            
+    
+        
+        <a href="faq.html" class="list-group-item ">
+        
+
+            
+
+            
+
+            FAQ
+
+        
+        </a>
+        
+
+        
+    
+
+        </div>
+    </div>
+    
+
+
+
+                    </div>
+                    <div class="col-md-9">
+                        
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                            
+
+                            <div class="gb-markdown book-page-inner">
+                                <h1 id="snippet&#x6269;&#x5C55;&#x4E3B;&#x9898;&#x914D;&#x7F6E;">Snippet&#x6269;&#x5C55;&#x4E3B;&#x9898;&#x914D;&#x7F6E;</h1>
+<p>&#x4E0B;&#x9762;&#x662F;<a href="http://wiliam.me" target="_blank">&#x6211;</a>&#x5BF9;snippet&#x4E3B;&#x9898;&#x505A;&#x7684;&#x6269;&#x5C55;&#x529F;&#x80FD;&#x914D;&#x7F6E;&#x3002;
+&#x4E0B;&#x6587;&#x4EE5;<code>$BLOG_HOME</code>&#x8868;&#x793A;&#x4F60;&#x7684;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;
+&#x6253;&#x5F00;<code>$BLOG_HOME/themes/snippet_config.yml</code>,</p>
+<h3 id="&#x5206;&#x7C7B;widget&#x8BBE;&#x7F6E;&#x4E0D;&#x663E;&#x793A;&#x7684;&#x5206;&#x7C7B;&#x540D;&#x79F0;">&#x5206;&#x7C7B;widget&#x8BBE;&#x7F6E;&#x4E0D;&#x663E;&#x793A;&#x7684;&#x5206;&#x7C7B;&#x540D;&#x79F0;</h3>
+<p>&#x5F53;&#x4F7F;&#x7528;&#x5206;&#x7C7B;&#x505A;&#x83DC;&#x5355;&#x65F6;&#x5728;&#x5730;&#x5740;&#x680F;&#x4E2D;&#x663E;&#x793A;&#x5B57;&#x6BCD;&#x4F46;&#x4E0D;&#x60F3;&#x5728;&#x5206;&#x7C7B;widget&#x663E;&#x793A;&#x65F6;&#x4E0B;&#x9762;&#x914D;&#x7F6E;&#x5C31;&#x7528;&#x5230;&#x4E86;</p>
+<pre><code>category:
+  excludeNames: [&apos;tool&apos;,&apos;qianduan&apos;,&apos;houduan&apos;,&apos;zatan&apos;] # &#x5206;&#x7C7B;sidebar&#x4E0D;&#x663E;&#x793A;&#x7684;&#x5206;&#x7C7B;&#x540D;&#x79F0;
+</code></pre><h3 id="social-widget&#x4F7F;&#x7528;&#x963F;&#x91CC;iconfont&#x5B57;&#x4F53;&#x56FE;&#x6807;">social widget&#x4F7F;&#x7528;&#x963F;&#x91CC;iconfont&#x5B57;&#x4F53;&#x56FE;&#x6807;</h3>
+<p>&#x5F53;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x7684;&#x56FE;&#x6807;&#x5728;fontawesome&#x91CC;&#x6CA1;&#x6709;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;iconfont&#xFF0C;iconfont&#x662F;&#x963F;&#x91CC;&#x5988;&#x5988;&#x63A8;&#x51FA;&#x7684;&#x5B57;&#x4F53;&#x56FE;&#x6807;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x8BBE;&#x8BA1;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4ED6;&#x4EBA;&#x5DF2;&#x7ECF;&#x8BBE;&#x7F6E;&#x597D;&#x7684;&#xFF0C;&#x91CC;&#x9762;&#x6709;&#x8BB8;&#x591A;&#x514D;&#x8D39;&#x7684;&#x597D;&#x56FE;&#x6807;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x62FF;&#x8FC7;&#x6765;&#x7528;&#x3002;
+&#x4F7F;&#x7528;iconfont&#x5B57;&#x4F53;&#x56FE;&#x6807;&#x914D;&#x7F6E;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code> - name: &#x7B80;&#x4E66;
+   iconfont: true
+   icon: jianshu
+   href: //www.jianshu.com/u/046520e7e044
+</code></pre><p>&#x5C06;iconfont&#x8BBE;&#x7F6E;&#x4E3A;true&#xFF0C;&#x9ED8;&#x8BA4;&#x4F7F;&#x7528;&#x7684;&#x662F;fontawesome</p>
+<h3 id="&#x963F;&#x91CC;&#x5988;&#x5988;iconfont-css&#x6587;&#x4EF6;">&#x963F;&#x91CC;&#x5988;&#x5988;iconfont css&#x6587;&#x4EF6;</h3>
+<pre><code>## &#x963F;&#x91CC;&#x5988;&#x5988;iconfont css&#x6587;&#x4EF6;
+iconfont:
+    enable: true
+    css_data:
+        - path: fonts/iconfont/default/iconfont.css
+</code></pre><p>&#x8BF4;&#x660E;&#xFF1A;enable&#x662F;&#x5426;&#x542F;&#x7528;&#xFF0C;path&#xFF1A;iconfont&#x7684;css&#x6587;&#x4EF6;&#x5E94;&#x7528;&#x4F4D;&#x7F6E;</p>
+<h3 id="&#x6587;&#x7AE0;&#x76EE;&#x5F55;&#x8BBE;&#x7F6E;">&#x6587;&#x7AE0;&#x76EE;&#x5F55;&#x8BBE;&#x7F6E;</h3>
+<pre><code># Table Of Contents in the Sidebar
+toc:
+  enable: true
+  # Automatically add list number to toc.
+  number: false
+</code></pre><p>&#x8BF4;&#x660E;&#xFF1A;enable&#x542F;&#x7528;&#x76EE;&#x5F55;&#x914D;&#x7F6E;&#xFF0C;number&#x76EE;&#x5F55;&#x81EA;&#x52A8;&#x6DFB;&#x52A0;&#x7F16;&#x53F7;</p>
+<h3 id="&#x4FEE;&#x590D;&#x4E3B;&#x9898;&#x7F51;&#x76DF;cnzz&#x7F51;&#x7AD9;&#x7EDF;&#x8BA1;&#x7684;&#x95EE;&#x9898;&#x6539;&#x7528;&#x4E0B;&#x9762;&#x914D;&#x7F6E;">&#x4FEE;&#x590D;&#x4E3B;&#x9898;&#x7F51;&#x76DF;CNZZ&#x7F51;&#x7AD9;&#x7EDF;&#x8BA1;&#x7684;&#x95EE;&#x9898;,&#x6539;&#x7528;&#x4E0B;&#x9762;&#x914D;&#x7F6E;</h3>
+<pre><code>## &#x7F51;&#x76DF;CNZZ&#x7F51;&#x7AD9;&#x7EDF;&#x8BA1;
+cnzz_anaylytics:
+  enable: true  #&#x662F;&#x5426;&#x542F;&#x7528;
+  hiden: false    #&#x4F7F;&#x7528;&#x663E;&#x793A;&#x6587;&#x5B57;
+  head: s13   #&#x7EDF;&#x8BA1;&#x5934;
+  id: 1265515627  #&#x7AD9;&#x957F;&#x7EDF;&#x8BA1;&#x7684;ID
+</code></pre><h3 id="&#x90E8;&#x7F72;&#x5230;coding&#x6DFB;&#x52A0;host-by&#x529F;&#x80FD;">&#x90E8;&#x7F72;&#x5230;coding&#x6DFB;&#x52A0;host by&#x529F;&#x80FD;</h3>
+<pre><code>codeing_host_by:
+  enable: true
+</code></pre><h3 id="&#x4F7F;&#x7528;leancloud&#x7EDF;&#x8BA1;&#x6587;&#x7AE0;&#x8BA1;&#x6570;&#x914D;&#x7F6E;">&#x4F7F;&#x7528;leancloud&#x7EDF;&#x8BA1;&#x6587;&#x7AE0;&#x8BA1;&#x6570;&#x914D;&#x7F6E;</h3>
+<pre><code># Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: true
+  app_id: vKK2gYgNyw6WBBB2Dj42AsLN-gzGzoHsz
+  app_key: lO1AXA5FHRqXIa8aum7QIuyd
+</code></pre><h3 id="&#x4F7F;&#x7528;&#x535C;&#x7B97;&#x5B50;&#x8BA1;&#x6570;&#x529F;&#x80FD;">&#x4F7F;&#x7528;&#x535C;&#x7B97;&#x5B50;&#x8BA1;&#x6570;&#x529F;&#x80FD;</h3>
+<pre><code>busuanzi_count:
+  enable: true
+  site_uv: true
+  site_uv_header: &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#x672C;&#x7AD9;&#x8BBF;&#x5BA2;&#x6570;
+  site_uv_footer: &#x4EBA;&#x6B21;
+  site_pv: true
+  site_pv_header: &lt;i class=&quot;fa fa-eye&quot;&gt;&lt;/i&gt;&#x672C;&#x7AD9;&#x603B;&#x8BBF;&#x95EE;&#x91CF;
+  site_pv_footer: &#x6B21;
+
+  page_pv: false
+  page_pv_header: &lt;i class=&quot;fa fa-file-o&quot;&gt;&lt;/i&gt;&#x672C;&#x6587;&#x603B;&#x9605;&#x8BFB;&#x91CF;
+  page_pv_footer: &#x6B21;
+</code></pre><h3 id="&#x6253;&#x8D4F;&#x529F;&#x80FD;&#x914D;&#x7F6E;">&#x6253;&#x8D4F;&#x529F;&#x80FD;&#x914D;&#x7F6E;</h3>
+<pre><code>## &#x6587;&#x7AE0;&#x672B;&#x5C3E;&#x662F;&#x5426;&#x663E;&#x793A;&#x6253;&#x8D4F;&#x6309;&#x94AE;
+reward_comment: &#x6B23;&#x8D4F;&#x6B64;&#x6587;&#xFF1F;&#x6C42;&#x9F13;&#x52B1;&#xFF0C;&#x6C42;&#x652F;&#x6301;&#xFF01;
+wechatpay: http://ofv7c2awe.bkt.clouddn.com/wechatpay.gif
+# alipay: /images/alipay.JPG
+</code></pre>
+                            </div>
+                            
+<hr>
+<div class="btn-group btn-group-justified">
+    
+    <a class="btn" href="snippetConfig.html"><b>前一页:</b> snippet配置</a>
+    
+    
+    <a class="btn" href="deploy.html"><b>后一页:</b> 部署与开发</a>
+    
+</div>
+
+                        
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="gb-page-footer">
+        <div class="container">
+            <ul class="menu">
+                <li class="pull-right">
+                    <span class="service-info">Copyright GitBook 2017</span>
+                </li>
+                <li>
+                    <a href="#">Return to the top</a>
+                </li>
+                <li>
+                    <a href="#">Updated Oct 26th 17</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script src="gitbook/gitbook.js"></script>
+
+    
+    <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+    
+
+    
+    <script src="gitbook/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+    
+
+<script>
+(function() {
+    gitbook.page.hasChanged({"page":{"title":"snippet扩展配置","level":"2.3","depth":1,"next":{"title":"部署与开发","level":"3.1","depth":1,"path":"deploy.md","ref":"deploy.md","articles":[]},"previous":{"title":"snippet配置","level":"2.2","depth":1,"path":"snippetConfig.md","ref":"snippetConfig.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-official@2.1.1","-sharing","-fontsettings","sitemap"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sitemap":{"hostname":"https://toolchain.gitbook.com"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-official":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"version":"1.1.0"},"title":"Snippet文档","gitbook":"3.2.3"},"file":{"path":"snippetExtConfig.md","mtime":"2017-10-26T07:39:41.302Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-26T08:18:44.133Z"},"basePath":".","book":{"language":""}});
+})();
+</script>
+
+        
+    </body>
+</html>
+
